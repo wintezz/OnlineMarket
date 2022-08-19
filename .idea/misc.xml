@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/konbs/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_spinner_dropdown_item.xml" value="0.4" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/category_books_image.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/category_books_image_selected.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/category_computer_image.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/category_computer_image_selected.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/category_health_image.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/category_health_image_selected.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/category_phone_image.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/category_phones_image.xml" value="0.2611111111111111" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/category_phones_image_selected.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/catigory_phone.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/circle.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/ic_arrow_left.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/ic_background_spinner.xml" value="0.1" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/ic_baseline_star.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/ic_circle_orange_34.xml" value="0.2833333333333333" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14479166666666668" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/ic_line.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/ic_rectangle_mini_orange.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/ic_sd.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/ic_ssd.xml" value="0.15520833333333334" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/ic_star.xml" value="0.2328125" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/ic_test_star.xml" value="0.2328125" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/drawable/main_cart.xml" value="0.2361111111111111" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/layout/bottom_sheet_main_screen.xml" value="0.31140350877192985" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/layout/bottom_sheet_my_cart.xml" value="0.3035830618892508" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/layout/bottom_sheet_product_details.xml" value="0.5" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/layout/fragment_main_screen.xml" value="0.3158258465791292" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/layout/fragment_my_cart.xml" value="0.264" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/layout/fragment_product_details.xml" value="0.264" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/layout/fragment_splash.xml" value="0.31875" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/layout/item_best_seller.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/layout/item_categories_main_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/layout/item_hot_sales.xml" value="0.5778120184899846" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/layout/item_photo_phone.xml" value="0.3411458333333333" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/layout/item_rv_my_cart.xml" value="0.4" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/layout/item_spinner.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/app/src/main/res/layout/test1.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/core/src/main/res/drawable/ic_minus.xml" value="0.22850877192982455" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/feature-main-screen/src/main/res/layout/a.xml" value="0.21140350877192982" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/feature-main-screen/src/main/res/layout/bottom_sheet_main_screen.xml" value="0.21140350877192982" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/feature-main-screen/src/main/res/layout/fragment_main_screen.xml" value="0.21140350877192982" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/feature-main-screen/src/main/res/layout/item_best_seller.xml" value="0.21140350877192982" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/feature-main-screen/src/main/res/layout/item_categories_main_screen.xml" value="0.21140350877192982" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/feature-main-screen/src/main/res/layout/item_hot_sales.xml" value="0.21140350877192982" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/feature-main-screen/src/main/res/layout/item_spinner.xml" value="0.21140350877192982" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/feature-main-screen/src/main/res/layout/spinner_dropdown_item.xml" value="0.21140350877192982" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/feature-my-cart/src/main/res/layout/a.xml" value="0.26842105263157895" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/feature-my-cart/src/main/res/layout/bottom_sheet_my_cart.xml" value="0.26842105263157895" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/feature-product-details/src/main/res/layout/a.xml" value="0.21140350877192982" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/feature-product-details/src/main/res/layout/item_photo_phone.xml" value="0.21140350877192982" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/feature-splash-screen/src/main/res/layout/a.xml" value="0.21140350877192982" />
+        <entry key="..\:/Users/konbs/MyProjectAndroid/MyTestStore/feature-splash-screen/src/main/res/layout/fragment_splash.xml" value="0.21140350877192982" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
+        <entry key="core/src/main/res/drawable/circle.xml" value="0.1885" />
+        <entry key="core/src/main/res/drawable/circle_white.xml" value="0.1885" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

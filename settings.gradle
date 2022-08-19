@@ -1,0 +1,10 @@
+rootProject.name = "My Test Store"
+include ':app'
+include ':model'
+include ':repositories'
+include ':core'
+include ':utils'
+include ':feature-main-screen'
+include ':feature-product-details'
+include ':feature-splash-screen'
+include ':feature-my-cart'

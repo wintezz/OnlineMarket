@@ -1,0 +1,36 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-parcelize'
+
+}
+
+dependencies {
+
+    implementation project(Modules.model)
+    implementation project(Modules.repositories)
+    implementation project(Modules.core)
+    implementation project(Modules.utils)
+
+    implementation Kotlin.core
+    implementation Kotlin.stdlib
+    implementation Kotlin.coroutinesAndroid
+    implementation Kotlin.coroutinesCore
+
+    implementation Koin.koinAndroid
+    implementation Koin.koinCore
+    implementation Koin.koinViewModel
+
+    implementation Design.appCompat
+    implementation Design.material
+    implementation Design.constraintLayout
+
+    implementation Retrofit.retrofit
+    implementation Retrofit.converterGson
+    implementation Retrofit.coroutinesAdapter
+    implementation Retrofit.loggingInterceptor
+    implementation Retrofit.gson
+
+    implementation ViewBindingLibrary.viewBinding
+
+}

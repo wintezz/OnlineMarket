@@ -1,0 +1,49 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+
+}
+
+dependencies {
+
+    implementation project(Modules.model)
+    implementation project(Modules.repositories)
+    implementation project(Modules.core)
+    implementation project(Modules.utils)
+    implementation project(Modules.splashScreen)
+    implementation project(Modules.myCart)
+    implementation project(Modules.productDetails)
+    implementation project(Modules.mainScreen)
+
+    implementation Kotlin.core
+    implementation Kotlin.stdlib
+    implementation Kotlin.coroutinesAndroid
+    implementation Kotlin.coroutinesCore
+
+    implementation Design.appCompat
+    implementation Design.material
+    implementation Design.constraintLayout
+
+    implementation DiscreteScrollView.discreteScrollView
+
+    testImplementation Tests.junit
+    androidTestImplementation Tests.ext
+    androidTestImplementation Tests.espresso
+
+    implementation Koin.koinAndroid
+    implementation Koin.koinCore
+    implementation Koin.koinViewModel
+
+    implementation Retrofit.retrofit
+    implementation Retrofit.converterGson
+    implementation Retrofit.coroutinesAdapter
+    implementation Retrofit.loggingInterceptor
+
+    implementation ViewBindingLibrary.viewBinding
+
+    implementation Cicerone.cicerone
+}
+
+repositories {
+    mavenCentral()
+}

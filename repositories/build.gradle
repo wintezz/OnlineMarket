@@ -1,0 +1,19 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
+
+dependencies {
+    implementation project(Modules.model)
+
+    implementation Kotlin.core
+    implementation Kotlin.stdlib
+
+    implementation Retrofit.retrofit
+    implementation Retrofit.converterGson
+    implementation Retrofit.coroutinesAdapter
+    implementation Retrofit.loggingInterceptor
+
+    implementation Glide.glide
+    implementation Glide.glideCompiler
+}

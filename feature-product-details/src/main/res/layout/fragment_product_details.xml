@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_container"
+    tools:context=".presentation.fragment.ProductDetailsFragment">
+
+    <ImageView
+        android:id="@+id/button_back_container_product_details"
+        style="@style/ButtonBackContainer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_left"
+        app:layout_constraintBottom_toBottomOf="@id/button_back_container_product_details"
+        app:layout_constraintEnd_toEndOf="@id/button_back_container_product_details"
+        app:layout_constraintStart_toStartOf="@id/button_back_container_product_details"
+        app:layout_constraintTop_toTopOf="@id/button_back_container_product_details"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/tv_header_product_details"
+        style="@style/TitleTextViewMainScreenBottomSheetStyles"
+        android:text="@string/product_details"
+        app:layout_constraintBottom_toBottomOf="@id/battier_header_product_details"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_cart_container_product_details"
+        style="@style/ButtonItemMenuHeaderContainer"
+        app:layout_constraintBottom_toBottomOf="@id/battier_header_product_details"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:layout_width="@dimen/width_iv_cart_product_details"
+        android:layout_height="@dimen/height_iv_cart_product_details"
+        android:src="@drawable/main_cart"
+        app:layout_constraintBottom_toBottomOf="@id/iv_cart_container_product_details"
+        app:layout_constraintEnd_toEndOf="@id/iv_cart_container_product_details"
+        app:layout_constraintStart_toStartOf="@id/iv_cart_container_product_details"
+        app:layout_constraintTop_toTopOf="@id/iv_cart_container_product_details" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/battier_header_product_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="button_back_container_product_details" />
+
+    <com.yarolegovich.discretescrollview.DiscreteScrollView
+        android:id="@+id/rv_image_phone_product_details"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_rv_image_phone_product_details"
+        android:layout_marginTop="@dimen/margin_top_rv_image_phone_product_details"
+        android:layout_marginBottom="@dimen/margin_bottom_rv_image_phone_product_details"
+        app:layout_constraintBottom_toTopOf="@id/bottom_sheet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/battier_header_product_details"
+        tools:listitem="@layout/item_photo_phone" />
+
+    <include
+        android:id="@+id/bottom_sheet"
+        layout="@layout/bottom_sheet_product_details"
+        android:layout_width="@dimen/zero"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
